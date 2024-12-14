@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinnamon Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <nav style="display: flex; justify-content: space-between; align-items: center; background-color: #194463; color: #fff; padding: 10px;">
+        <div style="font-size: 1.5em; font-weight: bold;">Cinnabon</div>
+        <ul style="list-style: none; display: flex; gap: 20px; margin: 0; padding: 0;">
+            <li><a href="index.html" style="color: #fff; text-decoration: none;">Home</a></li>
+            <li><a href="menu.html" style="color: #fff; text-decoration: none;">Products</a></li>
+            <li><a href="#about" style="color: #fff; text-decoration: none;">About</a></li>
+            <li><a href="#cart" style="color: #fff; text-decoration: none;">Cart</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Cinnamon Store</h1>
+        <p>Quality Ingredients - Delicious Taste - Fast Delivery</p>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section class="home">
+            <img src="https://media.graphassets.com/EjxJeiTRWaFEoB9pqr8Q" alt="Cinnamon Roll Image" />
+            <p>We offer the most delicious and freshest cinnamon rolls made with quality ingredients.</p>
+        </section>
+
+        <!-- About Us -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a dedicated store specializing in making delicious cinnamon rolls with love and care.</p>
+        </section>
+
+        <!-- Contact Us -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email" required />
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter your password" required />
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-- Menu Button -->
+        <section>
+            <button onclick="window.location.href='menu.html';">View Menu</button>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Cinnamon Store. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
